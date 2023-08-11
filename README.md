@@ -32,3 +32,24 @@
 	}
 }
 ```
+
+## Flutter Windows 1.25.0-4.0.pre
+
+1. Write the `settings.json`
+```json
+{
+  "dart.flutterSdkPath": "C:\\flutter\\1.25.0-4.0.pre",
+  "dart.devToolsLocation": "external",
+  "dart.devToolsReuseWindows": false
+}
+```
+
+2. Download the android studio
+[android studio 3.0](https://developer.android.com/studio/archive?hl=en)
+
+3. Set the android studio dir in command line
+```cmd
+flutter config --android-studio-dir=<directory>
+```
+[Install Android Studio](https://docs.flutter.dev/get-started/install/windows#android-setup)
+* Important The specified version of Flutter requires the use of the specified version of Android Studio (Java version)
